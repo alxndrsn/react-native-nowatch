@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sed -i -Ee 's/\bwatch: true\b/watch: false/' $(find node_modules -name DependencyGraph.js)
+
+./node_modules/.bin/react-native "$@"
+exit_code=$?
+
+sed -i -Ee 's/\bwatch: false\b/watch: true/' $(find node_modules -name DependencyGraph.js)
+
+exit $exit_code

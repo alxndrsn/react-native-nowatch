@@ -1,0 +1,17 @@
+{
+  "name": "react-native-nowatch",
+  "version": "0.1.0",
+  "bin": {
+    "react-native-nowatch": "react-native-nowatch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alxndrsn/react-native-nowatch.git"
+  },
+  "author": "alxndrsn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alxndrsn/react-native-nowatch/issues"
+  },
+  "homepage": "https://github.com/alxndrsn/react-native-nowatch#readme"
+}
