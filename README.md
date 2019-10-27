@@ -3,6 +3,8 @@
 
 Run `react-native` CLI without it starting a gazillion file watchers.
 
+A hack to work around [facebook/metro bug #355 - _Watch option is ignored when creating JestHasteMap_](https://github.com/facebook/metro/issues/355).
+
 # Installation
 
 	yarn add react-native-nowatch
@@ -65,7 +67,3 @@ Ever seen an error like this?
 	error Command failed with exit code 1.
 	info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
 	ERROR: Job failed: exit code 1
-
-# Inspiration
-
-[facebook/metro bug #355 - _Watch option is ignored when creating JestHasteMap_](https://github.com/facebook/metro/issues/355).
